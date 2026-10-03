@@ -1,0 +1,122 @@
+[
+  {
+    "sequence": 0,
+    "request_id": "LAB-001",
+    "resource_id": "DOC-001",
+    "policy_version": "lab-v1",
+    "outcome": "allow",
+    "reason": "context_matches_policy",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "83c58bfa69bc8c96261d47ffbb61105d3b37b330c41c5436143fdc187e00dd3a"
+  },
+  {
+    "sequence": 1,
+    "request_id": "LAB-002",
+    "resource_id": "DOC-002",
+    "policy_version": "lab-v1",
+    "outcome": "allow",
+    "reason": "context_matches_policy",
+    "previous_hash": "83c58bfa69bc8c96261d47ffbb61105d3b37b330c41c5436143fdc187e00dd3a",
+    "record_hash": "0624ccf57e4d1feea58f023619f3c07c8a4fbba1b8f81a2658e6612f442deedf"
+  },
+  {
+    "sequence": 2,
+    "request_id": "LAB-003",
+    "resource_id": "DOC-003",
+    "policy_version": "lab-v1",
+    "outcome": "deny",
+    "reason": "sensitive_role_not_allowed",
+    "previous_hash": "0624ccf57e4d1feea58f023619f3c07c8a4fbba1b8f81a2658e6612f442deedf",
+    "record_hash": "923d7d12c467a101f9a6c737973023cea6d5cb3b41de937f37ffa1c48ced24d9"
+  },
+  {
+    "sequence": 3,
+    "request_id": "LAB-004",
+    "resource_id": "DOC-004",
+    "policy_version": "lab-v1",
+    "outcome": "review",
+    "reason": "classification_unknown",
+    "previous_hash": "923d7d12c467a101f9a6c737973023cea6d5cb3b41de937f37ffa1c48ced24d9",
+    "record_hash": "cbb2cb4cd6a76b670e1a1b7bebc4673c36d6abcc7df3e11b8e7e8ca9c3af1ab3"
+  },
+  {
+    "sequence": 4,
+    "request_id": "LAB-005",
+    "resource_id": "DOC-005",
+    "policy_version": "lab-v1",
+    "outcome": "deny",
+    "reason": "external_nonpublic",
+    "previous_hash": "cbb2cb4cd6a76b670e1a1b7bebc4673c36d6abcc7df3e11b8e7e8ca9c3af1ab3",
+    "record_hash": "837a444dfcdb8bc33db34cc60940a4a2bddef2a473d61b9ede197d85728ccdb2"
+  },
+  {
+    "sequence": 5,
+    "request_id": "LAB-006",
+    "resource_id": "DOC-006",
+    "policy_version": "lab-v1",
+    "outcome": "allow",
+    "reason": "context_matches_policy",
+    "previous_hash": "837a444dfcdb8bc33db34cc60940a4a2bddef2a473d61b9ede197d85728ccdb2",
+    "record_hash": "294c431737d167d8ecd92b9f24003f0a0040b3438c5af5c5ce97560e58687c5d"
+  },
+  {
+    "sequence": 6,
+    "request_id": "LAB-007",
+    "resource_id": "DOC-007",
+    "policy_version": "lab-v1",
+    "outcome": "review",
+    "reason": "anomalous_access",
+    "previous_hash": "294c431737d167d8ecd92b9f24003f0a0040b3438c5af5c5ce97560e58687c5d",
+    "record_hash": "d8bea506e1b77d5143a5fab9e1266265ffb79d092c017dbc31e70df535b03989"
+  },
+  {
+    "sequence": 7,
+    "request_id": "LAB-008",
+    "resource_id": "DOC-008",
+    "policy_version": "lab-v1",
+    "outcome": "deny",
+    "reason": "untrusted_nonpublic_channel",
+    "previous_hash": "d8bea506e1b77d5143a5fab9e1266265ffb79d092c017dbc31e70df535b03989",
+    "record_hash": "789a17fd582e95a8065fb31ea97abbd2047ea340d522ca20c49026e5bc185aaa"
+  },
+  {
+    "sequence": 8,
+    "request_id": "LAB-009",
+    "resource_id": "DOC-009",
+    "policy_version": "lab-v1",
+    "outcome": "review",
+    "reason": "channel_trust_unknown",
+    "previous_hash": "789a17fd582e95a8065fb31ea97abbd2047ea340d522ca20c49026e5bc185aaa",
+    "record_hash": "c506431ee5c7cbb07c6e055aca7c1893889a3aec357561713c8881268ac02aaf"
+  },
+  {
+    "sequence": 9,
+    "request_id": "LAB-010",
+    "resource_id": "DOC-010",
+    "policy_version": "lab-v1",
+    "outcome": "deny",
+    "reason": "restricted_resource",
+    "previous_hash": "c506431ee5c7cbb07c6e055aca7c1893889a3aec357561713c8881268ac02aaf",
+    "record_hash": "fd0232b73115aafc6c692935ce5329580e8ac9b429eaa721c39cb2dd55174fd5"
+  },
+  {
+    "sequence": 10,
+    "request_id": "LAB-011",
+    "resource_id": "DOC-011",
+    "policy_version": "lab-v1",
+    "outcome": "deny",
+    "reason": "role_purpose_mismatch",
+    "previous_hash": "fd0232b73115aafc6c692935ce5329580e8ac9b429eaa721c39cb2dd55174fd5",
+    "record_hash": "b1d12805c9a58c8a4a65e37f87a9d59a904e17e2f59a7d95fffa98596a7b8656"
+  },
+  {
+    "sequence": 11,
+    "request_id": "LAB-012",
+    "resource_id": "DOC-012",
+    "policy_version": "lab-v1",
+    "outcome": "review",
+    "reason": "unsupported_context",
+    "previous_hash": "b1d12805c9a58c8a4a65e37f87a9d59a904e17e2f59a7d95fffa98596a7b8656",
+    "record_hash": "94e8e6c7f90b4448ed7bc73a443c0a8df5342c35ceb0e47bdf99d1497b1b0309"
+  }
+]

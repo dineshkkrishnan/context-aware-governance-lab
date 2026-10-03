@@ -1,0 +1,110 @@
+[
+  {
+    "role": "engineer",
+    "purpose": "operations",
+    "classification": "internal",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-001",
+    "resource_id": "DOC-001"
+  },
+  {
+    "role": "clinician",
+    "purpose": "care",
+    "classification": "sensitive",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-002",
+    "resource_id": "DOC-002"
+  },
+  {
+    "role": "engineer",
+    "purpose": "operations",
+    "classification": "sensitive",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-003",
+    "resource_id": "DOC-003"
+  },
+  {
+    "role": "engineer",
+    "purpose": "operations",
+    "classification": "unknown",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-004",
+    "resource_id": "DOC-004"
+  },
+  {
+    "role": "external",
+    "purpose": "operations",
+    "classification": "internal",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-005",
+    "resource_id": "DOC-005"
+  },
+  {
+    "role": "external",
+    "purpose": "operations",
+    "classification": "public",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-006",
+    "resource_id": "DOC-006"
+  },
+  {
+    "role": "engineer",
+    "purpose": "operations",
+    "classification": "internal",
+    "channel_trust": "trusted",
+    "anomalous": true,
+    "request_id": "LAB-007",
+    "resource_id": "DOC-007"
+  },
+  {
+    "role": "engineer",
+    "purpose": "operations",
+    "classification": "internal",
+    "channel_trust": "untrusted",
+    "anomalous": false,
+    "request_id": "LAB-008",
+    "resource_id": "DOC-008"
+  },
+  {
+    "role": "engineer",
+    "purpose": "operations",
+    "classification": "internal",
+    "channel_trust": "unknown",
+    "anomalous": false,
+    "request_id": "LAB-009",
+    "resource_id": "DOC-009"
+  },
+  {
+    "role": "engineer",
+    "purpose": "operations",
+    "classification": "restricted",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-010",
+    "resource_id": "DOC-010"
+  },
+  {
+    "role": "engineer",
+    "purpose": "care",
+    "classification": "internal",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-011",
+    "resource_id": "DOC-011"
+  },
+  {
+    "role": "unsupported",
+    "purpose": "operations",
+    "classification": "internal",
+    "channel_trust": "trusted",
+    "anomalous": false,
+    "request_id": "LAB-012",
+    "resource_id": "DOC-012"
+  }
+]
